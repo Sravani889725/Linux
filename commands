@@ -1,0 +1,47 @@
+Files and directory management
+
+ls------->list of directories
+ls -l -------->list with details
+ls -la------->list all the things in the directory
+ls -ltr----->list the files in the order
+ls -ltra------->list the fils in order
+ls -h ------->hden files
+  Cd-- ----->change current directory
+pwd -------->present working directory
+mkdir------->create a directory
+rmdir------>remove directory
+touch------>create file
+cp --- copy the files or directories
+mv ------->move the files one folder to another folder
+vim------->edit the file contect or create a file 
+:wq!------>SAVE the file
+cat------>view file or read the file
+less------>view file contect interactively
+less filename
+head------->shows first few lines
+head -n 5 filename------>fist five lines
+tail------>shows last few lines
+tail -n 5 filename------->shows last five lines
+more------>vew file content page-by-page
+more filename
+find ------->search files and directories
+basic syntax------>find [path] [options] [expression]
+  find all files in current directory----> find .
+  find by name----find /home -name "sample.html"
+  find by extention---find . -name "*.txt"----->-find all .txt files in current directory and subfolder
+find case-insensitive------->find . -iname "sample.html"
+find only directories------>find . -type d -name "text"
+find only names-------> find . -type f -name ".log"
+find by size ------->find /var -size +100M
+find by modified time(modified in last one day)----->find . -mtime -1
+  Modified in last 7 days ago ----->find . -mtime +7
+Find empty files and directoris------> find . -empty
+find and delete ------->find . -name "*.tmp" -type f -delete
+find and execute a command------>find . -name "*.log" -exec ls -lh {} \;
+Locate------->locate filename
+
+
+
+
+
+  
