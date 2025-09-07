@@ -1,0 +1,83 @@
+chmod-------> change file permissions
+
+chown------->
+chgrp------->
+umask------->
+ps ----->show the actove processes
+ps -aux------>show all process   (ex: ps -aux | grep nginx)
+ps -ef | wc -l------>count of processes   (wc is word count and -l is list)  (ps process & ef all the executabe files which are available in the system)
+top ------>monitor the system processes in real time (live view of processes)
+htop ------>interactive processes viewer
+kill------> terminate a process by ID  (kill 1234)
+killall------->kill process by name (killall nginx)
+pkill------->kill process by pattern
+
+
+
+
+
+network commands:
+
+ping-------->
+ipconfig------>
+tracert------>
+nslookup------->
+netstat----->
+
+
+
+
+
+
+compressing and archiving:
+tar------->tar command for archive files create, extract, manage cheyyadaniki
+Ex: .tar, .tar.gz, .tgz
+
+syntax:
+
+tar [options] [arcive-file] [file-or-directory]
+
+c---create
+x---extract (files untar cheyyadam)
+t--list (archive lo files chudadam)
+f--to specify file name
+v---verbose (process details chupistundhi)
+z--compress/uncompress with gzip (.tar.gz)
+create archive------>tar -cvf archive.tar file1 file2 dir1
+archive create with zip compression---->tar -czvf archive.tar.gz file1 file2 dir1
+extract tar file------> tar -xvf archive.tar
+extract tar.gz file------>tar -xzvf archive.tar.gz
+list files inside tar----->tar -tvf archive.tar
+extract into specific directory------> tar -xvf archive.tar -C /path/to/destination/
+
+
+create----> tar -cvf
+extract ----> tar -xvf
+list---> tar -tvf
+compress with gzip--->add z
+
+
+
+zip:
+
+create zip file
+
+zip archive.zip hello.html
+
+unzip--- unzip archive.zip
+
+gzip---
+
+
+
+
+system information:
+
+uname----->display the system information
+uptime---->
+free---memory usage
+dmesg---->print or control kernel messages  (ex: dmesg | grep error)
+df ------> disk space usage of filesystem  (ex: df /home)
+
+
+
